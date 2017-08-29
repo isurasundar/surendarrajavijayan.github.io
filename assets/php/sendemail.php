@@ -8,8 +8,7 @@
 
     $to         = 'contact@surasundar.com';  // put your email here
 
-    $email_template = 'simple.html';
-
+   
     $subject    = strip_tags($_POST['subject']);
     $email       = strip_tags($_POST['email']);
     $phone      = strip_tags($_POST['phone']);
